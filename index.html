@@ -2,141 +2,447 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Abu Bakar — Python/Django + AI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Abu Bakar | Python/Django + AI</title>
+  <meta name="description" content="Python/Django developer building REST APIs, PostgreSQL apps, and integrating ML models into products." />
+
+  <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Optional: Bootstrap Icons (for small icons) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- Your CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body class="bg-light">
-  <nav class="navbar navbar-expand-lg bg-white border-bottom">
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top">
     <div class="container">
-      <a class="navbar-brand fw-semibold" href="#">Abu Bakar</a>
-      <div class="ms-auto">
-        <a class="btn btn-outline-dark btn-sm" href="#projects">Projects</a>
-        <a class="btn btn-dark btn-sm ms-2" href="#contact">Contact</a>
+      <a class="navbar-brand fw-bold" href="#top">Abu Bakar</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item">
+            <a class="btn btn-dark btn-sm ms-lg-2" href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
 
-  <header class="py-5">
+  <!-- HERO -->
+  <header id="top" class="py-5">
     <div class="container">
       <div class="row align-items-center g-4">
+
+        <!-- Left -->
         <div class="col-lg-7">
-          <h1 class="display-6 fw-bold">Python / Django Developer with AI Integration</h1>
-          <p class="lead text-secondary mb-4">
-            Building end-to-end web apps (Django + REST + PostgreSQL) and integrating ML models into real products.
+          <h1 class="display-5 fw-bold lh-1">
+            Python / Django Developer <span class="text-primary">with AI Integration</span>
+          </h1>
+
+          <p class="lead text-secondary mt-3">
+            Building end-to-end backend systems (Django + REST + PostgreSQL) and integrating ML models into real products.
           </p>
-          <div class="d-flex gap-2">
+
+          <div class="d-flex flex-wrap gap-2 mt-3">
             <a class="btn btn-dark" href="#projects">View Projects</a>
-            <a class="btn btn-outline-dark" href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank">GitHub</a>
-            <a class="btn btn-outline-dark" href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank">LinkedIn</a>
+            <a class="btn btn-outline-dark" href="https://github.com/Abubakar-Wahla" target="_blank" rel="noreferrer">GitHub</a>
+            <!-- Replace YOUR_LINKEDIN with your real link -->
+            <a class="btn btn-outline-dark" href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank" rel="noreferrer">LinkedIn</a>
+            <!-- Optional: add resume later -->
+            <!-- <a class="btn btn-outline-primary" href="./resume.pdf" target="_blank">Resume</a> -->
+          </div>
+
+          <div class="mt-3 text-secondary small">
+            <span class="me-3"><i class="bi bi-envelope"></i> <a class="text-decoration-none" href="mailto:bsef21m541@pucit.edu.pk">bsef21m541@pucit.edu.pk</a></span>
+            <span><i class="bi bi-telephone"></i> <a class="text-decoration-none" href="tel:+923260489543">+92 326 0489543</a></span>
+          </div>
+
+          <!-- Quick proof chips -->
+          <div class="mt-4 d-flex flex-wrap gap-2">
+            <span class="badge text-bg-dark">Django</span>
+            <span class="badge text-bg-dark">Django REST Framework</span>
+            <span class="badge text-bg-dark">PostgreSQL</span>
+            <span class="badge text-bg-dark">JWT Auth</span>
+            <span class="badge text-bg-dark">Model Serving</span>
           </div>
         </div>
+
+        <!-- Right -->
         <div class="col-lg-5">
-          <div class="card shadow-sm">
-            <div class="card-body">
-              <h5 class="fw-semibold mb-2">Tech Stack</h5>
-              <div class="d-flex flex-wrap gap-2">
-                <span class="badge text-bg-dark">Python</span>
-                <span class="badge text-bg-dark">Django</span>
-                <span class="badge text-bg-dark">Django REST</span>
-                <span class="badge text-bg-dark">PostgreSQL</span>
-                <span class="badge text-bg-dark">Git/GitHub</span>
-                <span class="badge text-bg-dark">Pandas</span>
-                <span class="badge text-bg-dark">NumPy</span>
-                <span class="badge text-bg-dark">Scikit-learn</span>
+          <div class="card shadow-sm border-0">
+            <div class="card-body p-4">
+              <h2 class="h5 fw-bold mb-3">Tech Stack</h2>
+
+              <div class="mb-3">
+                <div class="text-secondary small mb-2 fw-semibold">Backend</div>
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="badge text-bg-dark">Python</span>
+                  <span class="badge text-bg-dark">Django</span>
+                  <span class="badge text-bg-dark">DRF</span>
+                  <span class="badge text-bg-dark">REST</span>
+                </div>
               </div>
-              <hr>
-              <p class="mb-0 text-secondary">
-                Target roles: Associate Software Engineer, Junior Backend (Django), AI/ML Intern.
+
+              <div class="mb-3">
+                <div class="text-secondary small mb-2 fw-semibold">Database</div>
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="badge text-bg-dark">PostgreSQL</span>
+                  <span class="badge text-bg-dark">SQLite</span>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <div class="text-secondary small mb-2 fw-semibold">AI/ML</div>
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="badge text-bg-dark">NumPy</span>
+                  <span class="badge text-bg-dark">Pandas</span>
+                  <span class="badge text-bg-dark">scikit-learn</span>
+                </div>
+              </div>
+
+              <div>
+                <div class="text-secondary small mb-2 fw-semibold">Tools</div>
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="badge text-bg-dark">Git</span>
+                  <span class="badge text-bg-dark">GitHub</span>
+                  <span class="badge text-bg-dark">VS Code</span>
+                </div>
+              </div>
+
+              <hr class="my-4">
+
+              <div class="text-secondary">
+                <div class="fw-semibold">Target roles</div>
+                <div class="small">
+                  Junior Backend (Django), Associate Software Engineer, AI/ML Intern
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- PROOF STRIP -->
+      <section class="mt-4">
+        <div class="row g-3 text-center">
+          <div class="col-6 col-md-3">
+            <div class="card shadow-sm border-0">
+              <div class="card-body py-3">
+                <div class="h4 fw-bold mb-0">3+</div>
+                <div class="text-secondary small">Projects (planned)</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3">
+            <div class="card shadow-sm border-0">
+              <div class="card-body py-3">
+                <div class="h4 fw-bold mb-0">REST</div>
+                <div class="text-secondary small">API design</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3">
+            <div class="card shadow-sm border-0">
+              <div class="card-body py-3">
+                <div class="h4 fw-bold mb-0">Auth</div>
+                <div class="text-secondary small">JWT / Permissions</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3">
+            <div class="card shadow-sm border-0">
+              <div class="card-body py-3">
+                <div class="h4 fw-bold mb-0">Deploy</div>
+                <div class="text-secondary small">GitHub Pages / Render</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </header>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="py-5">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-end justify-content-between gap-2 mb-4">
+        <div>
+          <h2 class="fw-bold mb-1">Projects</h2>
+          <p class="text-secondary mb-0">Each project includes Live demo + GitHub repo + clear features.</p>
+        </div>
+
+        <!-- Simple filter (optional future; currently static buttons) -->
+        <div class="btn-group">
+          <button class="btn btn-outline-dark btn-sm active" type="button">All</button>
+          <button class="btn btn-outline-dark btn-sm" type="button">Django</button>
+          <button class="btn btn-outline-dark btn-sm" type="button">API</button>
+          <button class="btn btn-outline-dark btn-sm" type="button">AI</button>
+        </div>
+      </div>
+
+      <div class="row g-4">
+
+        <!-- Project Card Template: copy/paste to add more projects -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-start mb-2">
+                <h3 class="h5 fw-bold mb-0">Django CRUD Task Manager</h3>
+                <span class="badge bg-warning text-dark">IN PROGRESS</span>
+              </div>
+
+              <div class="d-flex flex-wrap gap-2 mb-3">
+                <span class="badge text-bg-dark">Django</span>
+                <span class="badge text-bg-dark">Auth</span>
+                <span class="badge text-bg-dark">PostgreSQL</span>
+              </div>
+
+              <ul class="text-secondary small mb-3">
+                <li>Signup/login + protected routes</li>
+                <li>CRUD tasks with validation</li>
+                <li>Deployment-ready structure</li>
+              </ul>
+
+              <div class="d-flex gap-2">
+                <a class="btn btn-sm btn-outline-dark disabled" aria-disabled="true">Live</a>
+                <a class="btn btn-sm btn-dark" href="https://github.com/Abubakar-Wahla" target="_blank" rel="noreferrer">GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-start mb-2">
+                <h3 class="h5 fw-bold mb-0">Django REST API (JWT)</h3>
+                <span class="badge bg-secondary">PLANNED</span>
+              </div>
+
+              <div class="d-flex flex-wrap gap-2 mb-3">
+                <span class="badge text-bg-dark">DRF</span>
+                <span class="badge text-bg-dark">JWT</span>
+                <span class="badge text-bg-dark">PostgreSQL</span>
+              </div>
+
+              <ul class="text-secondary small mb-3">
+                <li>CRUD endpoints + permissions</li>
+                <li>JWT auth + pagination</li>
+                <li>Swagger/OpenAPI docs</li>
+              </ul>
+
+              <div class="d-flex gap-2">
+                <a class="btn btn-sm btn-outline-dark disabled" aria-disabled="true">Live</a>
+                <a class="btn btn-sm btn-dark" href="https://github.com/Abubakar-Wahla" target="_blank" rel="noreferrer">GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-start mb-2">
+                <h3 class="h5 fw-bold mb-0">AI + Django Prediction App</h3>
+                <span class="badge bg-secondary">PLANNED</span>
+              </div>
+
+              <div class="d-flex flex-wrap gap-2 mb-3">
+                <span class="badge text-bg-dark">scikit-learn</span>
+                <span class="badge text-bg-dark">Model Serving</span>
+                <span class="badge text-bg-dark">API</span>
+              </div>
+
+              <ul class="text-secondary small mb-3">
+                <li>Train model + save .pkl</li>
+                <li>/predict endpoint returns JSON</li>
+                <li>Simple UI to test predictions</li>
+              </ul>
+
+              <div class="d-flex gap-2">
+                <a class="btn btn-sm btn-outline-dark disabled" aria-disabled="true">Live</a>
+                <a class="btn btn-sm btn-dark" href="https://github.com/Abubakar-Wahla" target="_blank" rel="noreferrer">GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="mt-4 text-secondary small">
+        Tip: When a project goes live, replace the badge to <span class="badge bg-success">LIVE</span> and enable the Live button.
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="py-5 bg-white border-top">
+    <div class="container">
+      <h2 class="fw-bold mb-4">Skills</h2>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <h3 class="h6 fw-bold">Backend</h3>
+              <ul class="text-secondary small mb-0">
+                <li>Django (Apps, ORM, Admin)</li>
+                <li>REST APIs (DRF)</li>
+                <li>Auth (JWT, permissions)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <h3 class="h6 fw-bold">Database</h3>
+              <ul class="text-secondary small mb-0">
+                <li>PostgreSQL</li>
+                <li>Schema & migrations</li>
+                <li>Querying & indexing basics</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <h3 class="h6 fw-bold">AI/ML</h3>
+              <ul class="text-secondary small mb-0">
+                <li>Data handling (Pandas)</li>
+                <li>Model training (sklearn)</li>
+                <li>Serving predictions via API</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <h3 class="h6 fw-bold">Tools</h3>
+              <ul class="text-secondary small mb-0">
+                <li>Git/GitHub workflow</li>
+                <li>VS Code</li>
+                <li>Virtual environments</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row g-4 align-items-center">
+        <div class="col-lg-7">
+          <h2 class="fw-bold mb-3">About</h2>
+          <p class="text-secondary mb-3">
+            I’m a software engineering graduate focused on backend development with Python and Django.
+            I build clean REST APIs, connect them to PostgreSQL, and integrate ML models into web apps.
+          </p>
+          <p class="text-secondary mb-0">
+            Current focus: shipping 3 recruiter-grade projects with deployment and clean GitHub repos.
+          </p>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="card shadow-sm border-0">
+            <div class="card-body">
+              <h3 class="h6 fw-bold mb-2">What recruiters will see</h3>
+              <ul class="text-secondary small mb-0">
+                <li>Live demos + readable code</li>
+                <li>API + DB + Auth fundamentals</li>
+                <li>AI feature integrated into a real app</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-5 bg-white border-top">
+    <div class="container">
+      <h2 class="fw-bold mb-3">Contact</h2>
+
+      <div class="row g-3">
+        <div class="col-md-6">
+          <div class="card shadow-sm border-0 h-100">
+            <div class="card-body">
+              <div class="mb-2">
+                <i class="bi bi-envelope"></i>
+                <strong class="ms-1">Email:</strong>
+                <a class="ms-1 text-decoration-none" href="mailto:bsef21m541@pucit.edu.pk">bsef21m541@pucit.edu.pk</a>
+              </div>
+
+              <div class="mb-3">
+                <i class="bi bi-telephone"></i>
+                <strong class="ms-1">Phone:</strong>
+                <a class="ms-1 text-decoration-none" href="tel:+923260489543">+92 326 0489543</a>
+              </div>
+
+              <div class="d-flex flex-wrap gap-2">
+                <a class="btn btn-dark" href="mailto:bsef21m541@pucit.edu.pk">Email</a>
+                <a class="btn btn-outline-dark" href="https://github.com/Abubakar-Wahla" target="_blank" rel="noreferrer">GitHub</a>
+                <a class="btn btn-outline-dark" href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank" rel="noreferrer">LinkedIn</a>
+              </div>
+
+              <div class="text-secondary small mt-3">
+                Replace YOUR_LINKEDIN with your real LinkedIn URL.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card shadow-sm border-0 h-100">
+            <div class="card-body">
+              <h3 class="h6 fw-bold mb-2">Availability</h3>
+              <p class="text-secondary mb-0 small">
+                Open to: Junior Backend (Django), Associate Software Engineer, AI/ML Intern.
+                Projects + deployment links available on request.
               </p>
             </div>
           </div>
         </div>
       </div>
+
     </div>
-  </header>
+  </section>
 
-  <main class="pb-5">
-    <section id="projects" class="py-4">
-      <div class="container">
-        <div class="d-flex align-items-end justify-content-between mb-3">
-          <h2 class="h3 fw-bold mb-0">Projects</h2>
-          <span class="text-secondary">Deployed + GitHub</span>
-        </div>
-
-        <div class="row g-3">
-          <!-- Project Card 1 -->
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 shadow-sm">
-              <div class="card-body">
-                <h5 class="card-title fw-semibold">Django CRUD App (Task Manager)</h5>
-                <p class="card-text text-secondary">Auth + CRUD + PostgreSQL. Clean UI, deployed on Render.</p>
-                <div class="d-flex gap-2">
-                  <a class="btn btn-sm btn-dark" href="#" target="_blank">Live</a>
-                  <a class="btn btn-sm btn-outline-dark" href="#" target="_blank">GitHub</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Project Card 2 -->
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 shadow-sm">
-              <div class="card-body">
-                <h5 class="card-title fw-semibold">Django REST API</h5>
-                <p class="card-text text-secondary">REST endpoints + JWT auth. Built for frontend consumption.</p>
-                <div class="d-flex gap-2">
-                  <a class="btn btn-sm btn-dark" href="#" target="_blank">Live</a>
-                  <a class="btn btn-sm btn-outline-dark" href="#" target="_blank">GitHub</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Project Card 3 -->
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 shadow-sm">
-              <div class="card-body">
-                <h5 class="card-title fw-semibold">AI + Django (Prediction App)</h5>
-                <p class="card-text text-secondary">Scikit-learn model saved as .pkl, served via Django endpoint.</p>
-                <div class="d-flex gap-2">
-                  <a class="btn btn-sm btn-dark" href="#" target="_blank">Live</a>
-                  <a class="btn btn-sm btn-outline-dark" href="#" target="_blank">GitHub</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <section id="contact" class="py-5">
-      <div class="container">
-        <div class="card shadow-sm">
-          <div class="card-body">
-            <h2 class="h4 fw-bold">Contact</h2>
-            <p class="text-secondary mb-3">Email: your@email.com</p>
-            <div class="d-flex gap-2">
-              <a class="btn btn-dark" href="mailto:your@email.com">Email</a>
-              <a class="btn btn-outline-dark" href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank">GitHub</a>
-              <a class="btn btn-outline-dark" href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank">LinkedIn</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="py-4 border-top bg-white">
-    <div class="container text-secondary">
-      © <span id="year"></span> Abu Bakar
-    </div>
+  <!-- FOOTER -->
+  <footer class="py-4 text-center text-secondary small">
+    © 2026 Abu Bakar • Built with HTML + Bootstrap • Hosted on GitHub Pages
   </footer>
 
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
