@@ -23,7 +23,6 @@ async function loadPortfolio() {
     setText("heroName", profile.name);
     setText("heroTitle", profile.title);
     setText("heroAbout", profile.summary);
-    setText("openToWorkPill", "Open to work • Lahore software houses");
 
     // --------------------
     // HIGHLIGHTS (hero card)
