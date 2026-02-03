@@ -51,7 +51,13 @@ body{
 .hero h2{margin:0 0 14px; font-weight:600}
 .hero-actions{display:flex; gap:10px; flex-wrap:wrap; margin-top:18px}
 
-.grid{display:grid; grid-template-columns: repeat(3, 1fr); gap:14px; margin-top:16px}
+.grid{
+  display:grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr)); /* 2 big cards on desktop */
+  gap:14px;
+  margin-top:16px;
+}
+
 .grid.two{grid-template-columns: 1fr 1fr}
 
 .card{
