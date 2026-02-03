@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Abu Bakar | Associate Software Engineer — Python/Django</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- TOPBAR -->
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand" id="brandName">Loading…</div>
+
+      <nav class="nav">
+        <a href="#projects">Projects</a>
+        <a href="#highlights">Highlights</a>
+        <a href="#skills">Stack</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="cta" id="topCtas"></div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="hero-left">
+        <p class="pill" id="openToWorkPill"></p>
+        <h1 id="heroName">Loading…</h1>
+        <h2 id="heroTitle" class="muted">Loading…</h2>
+        <p id="heroAbout" class="lead"></p>
+
+        <div class="hero-actions" id="heroActions"></div>
+      </div>
+
+      <div class="hero-right">
+        <div class="card">
+          <h3>Highlights</h3>
+          <ul id="highlights"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <p class="muted">Live demos + project details. No filler.</p>
+      </div>
+      <div class="grid" id="projectsGrid"></div>
+    </section>
+
+    <!-- EXPERIENCE HIGHLIGHTS -->
+    <section id="highlights" class="section">
+      <div class="section-head">
+        <h2>Experience Highlights</h2>
+      </div>
+
+      <div class="grid two">
+        <div class="card">
+          <h3>Backend & Systems</h3>
+          <ul>
+            <li>Designed REST APIs and authentication flows using Django and Node.js</li>
+            <li>Worked with relational (PostgreSQL) and NoSQL (MongoDB) databases</li>
+            <li>Implemented role-based access and secure password reset flows</li>
+            <li>Handled file uploads, email services, and payment integrations</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Final Year Project (Furliva)</h3>
+          <ul>
+            <li>Built production-grade React frontend for user and admin panels</li>
+            <li>Integrated APIs for products, orders, authentication, and admin workflows</li>
+            <li>Implemented Stripe checkout and order lifecycle handling</li>
+            <li>Collaborated in a team environment with clear frontend ownership</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="section-head">
+        <h2>Core Focus</h2>
+        <p class="muted">
+          Positioned for Lahore software houses: Python/Django first, full-stack exposure second.
+        </p>
+      </div>
+
+      <div class="grid two">
+        <div class="card">
+          <h3>Primary</h3>
+          <ul>
+            <li>Python</li>
+            <li>Django 5.x</li>
+            <li>Django REST Framework (fundamentals)</li>
+            <li>PostgreSQL (prod) / SQLite (dev)</li>
+            <li>Git / GitHub</li>
+            <li>Railway + Gunicorn deployments</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Secondary</h3>
+          <ul>
+            <li>React (Vite, React Router)</li>
+            <li>Node.js + Express</li>
+            <li>MongoDB + Mongoose</li>
+            <li>JWT auth, Stripe integration</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p class="muted">Fast response for interviews and screenings.</p>
+      </div>
+
+      <div class="card contact-card">
+        <div class="contact-row">
+          <div>
+            <div class="k">Email</div>
+            <div class="v" id="contactEmail">Loading…</div>
+          </div>
+
+          <div>
+            <div class="k">Phone</div>
+            <div class="v" id="contactPhone">Loading…</div>
+          </div>
+
+          <div>
+            <div class="k">Location</div>
+            <div class="v" id="contactLocation">Loading…</div>
+          </div>
+        </div>
+
+        <div class="contact-links" id="contactLinks"></div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer muted">
+      <span id="footerLine"></span>
+    </footer>
+
+  </main>
+
+  <!-- MODAL -->
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close="true"></div>
+    <div class="modal-panel" role="dialog" aria-modal="true">
+      <button class="modal-x" data-close="true" aria-label="Close">×</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <script src="assets/js/app.js" defer></script>
+
+</body>
+</html>

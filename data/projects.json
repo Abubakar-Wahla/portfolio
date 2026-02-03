@@ -1,0 +1,64 @@
+[
+  {
+    "id": "django-learning",
+    "name": "CivicAid (Django Learning Project)",
+    "tagline": "Help-request workflow app with authentication, roles, and production deployment.",
+    "status": "Live",
+    "role": "Solo (Learning Project)",
+    "liveUrl": "https://web-production-c39bf.up.railway.app/",
+    "repoUrl": "https://github.com/Abubakar-Wahla",
+    "tech": ["Python", "Django 5.x", "SQLite (dev)", "PostgreSQL (prod)", "Gunicorn", "Railway"],
+    "bullets": [
+      "Built MVT-based Django app with accounts + hub apps and permission-controlled workflows.",
+      "Implemented authentication, role-based checks, messages framework, and Gmail SMTP email setup.",
+      "Deployed to Railway with production settings and Gunicorn."
+    ],
+    "stackBlocks": [
+      {
+        "title": "Backend",
+        "items": ["Django 5.x", "SQLite (dev) / PostgreSQL (prod)", "Gunicorn", "Railway"]
+      },
+      {
+        "title": "Architecture",
+        "items": ["MVT", "accounts + hub apps", "Permission-controlled workflows"]
+      },
+      {
+        "title": "Frontend",
+        "items": ["Django Templates", "Static files", "Messages Framework"]
+      },
+      {
+        "title": "Auth",
+        "items": ["Built-in Django auth", "Gmail SMTP", "Role-based checks"]
+      }
+    ]
+  },
+  {
+    "id": "furliva-fyp",
+    "name": "Furliva (Final Year Project)",
+    "tagline": "Online pet-products e-commerce with admin panel and Stripe checkout.",
+    "status": "Live",
+    "role": "Frontend (Team Project)",
+    "liveUrl": "https://fyp-production-5e17.up.railway.app/",
+    "repoUrl": "https://github.com/Abubakar-Wahla",
+    "tech": ["React", "Vite", "React Router", "Tailwind CSS", "Node.js", "Express", "MongoDB", "Mongoose", "JWT", "Stripe"],
+    "bullets": [
+      "Built two React apps (customer frontend + admin) with routing and API integration.",
+      "Implemented product browsing, collections, cart-to-order flows, and admin management screens.",
+      "Integrated Stripe checkout and handled secure auth flows with JWT-based sessions."
+    ],
+    "stackBlocks": [
+      {
+        "title": "Frontend",
+        "items": ["React (Vite)", "React Router", "Tailwind CSS", "Admin + Frontend apps"]
+      },
+      {
+        "title": "Backend",
+        "items": ["Node.js", "Express", "JWT Auth", "bcrypt", "multer", "nodemailer"]
+      },
+      {
+        "title": "Database & Payments",
+        "items": ["MongoDB (Mongoose)", "Stripe Checkout", "Webhooks"]
+      }
+    ]
+  }
+]

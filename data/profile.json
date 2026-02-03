@@ -1,0 +1,28 @@
+{
+  "name": "Abu Bakar",
+  "title": "Associate Software Engineer — Python/Django",
+  "location": "Lahore, Pakistan",
+  "email": "bsef21m541@pucit.edu.pk",
+  "phone": "+92 326 0489543",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/abubakar-wahla-59175530a",
+    "github": "https://github.com/Abubakar-Wahla"
+  },
+  "summary": "Software Engineering graduate focused on backend development with Python and Django. Experienced in building production-ready web applications with authentication systems, role-based workflows, REST APIs, and database-driven architectures. Strong foundation in Data Structures, Databases, Operating Systems, and Software Engineering.",
+  "highlights": [
+    "Backend-focused development with Django (MVT, Auth, Permissions, ORM)",
+    "Production deployment experience (Railway + Gunicorn + PostgreSQL)",
+    "Full-stack exposure (React, Node.js, MongoDB)",
+    "Authentication systems with JWT & Django built-in auth",
+    "Stripe payment integration (FYP project)",
+    "Clean Git-based workflow and structured project architecture"
+  ],
+  "skills": {
+    "languages": ["Python", "JavaScript", "C++"],
+    "backend": ["Django 5.x", "Django REST Framework (learning)", "Node.js", "Express"],
+    "frontend": ["React (Vite)", "Tailwind CSS", "HTML5", "CSS3"],
+    "databases": ["PostgreSQL", "SQLite", "MongoDB"],
+    "tools": ["Git", "GitHub", "Railway", "Gunicorn", "VS Code"],
+    "concepts": ["MVT Architecture", "REST APIs", "Authentication & Authorization", "ORM", "Role-based Access Control"]
+  }
+}
