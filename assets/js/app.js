@@ -1,6 +1,12 @@
-async function loadPortfolio() {
-  const res = await fetch("data/profile.json");
-  const profile = await res.json();
+
+
+  async function loadJSON(path) {
+  const url = new URL(path, window.location.href); // robust on /portfolio/ and refreshes
+  const res = await fetch(url, { cache: "no-store" });
+  if (!res.ok) throw new Error(`Failed to load ${url} (${res.status})`);
+  return res.json();
+}
+
 
   // Helper
   const setText = (id, value) => {
